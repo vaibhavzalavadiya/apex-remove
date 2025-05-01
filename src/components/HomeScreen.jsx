@@ -142,7 +142,7 @@ const HomeScreen = ({ setResultImage, setIsLoading, showToastNotification }) => 
             <div 
               className={`border-2 border-dashed rounded-xl ${
                 dragActive ? 'border-purple-500 bg-purple-50' : 'border-gray-300'
-              } ${previewURL ? 'p-4' : 'p-6 sm:p-10'} 
+              } ${previewURL ? 'p-4' : 'p-4 sm:p-10'} 
               transition-all duration-300 hover:border-purple-400`}
               onDragEnter={handleDrag}
               onDragLeave={handleDrag}
